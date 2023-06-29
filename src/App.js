@@ -1,6 +1,6 @@
 import './App.css';
 import CardContainer from './sellers/CardContainer';
-import Login from './loginsignup/Login';
+import SignIn from './loginsignup/SignIn';
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* <CardContainer/> */}
-        <Login/>
+        <SignIn/>
       </header>
     </div>
   );
