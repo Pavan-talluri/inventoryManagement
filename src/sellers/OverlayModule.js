@@ -1,5 +1,5 @@
 import { CButton, CModal, CModalBody, CModalHeader, CModalFooter, CModalTitle } from '@coreui/react';
-import { useState } from 'react';
+import { React, useState } from 'react';
 
 
 function OverlayModule(props){

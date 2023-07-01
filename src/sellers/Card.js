@@ -1,11 +1,12 @@
 import { CCard, CCardBody, CCardTitle, CCardImage, CCardText, CButton } from '@coreui/react'
-// import { useState } from 'react';
+import { React, useState } from 'react';
 
-import OverlayModule from './OverlayModule';
+// import OverlayModule from './OverlayModule';
+import OverlayModule2 from './OverlayModule2';
 
 function Card(props) {
   let currentSeller = props.data;
-
+  // const [overlayShow, setOverlayShow] = useState(false);
 
   return (
   <div className="sellercard">
@@ -21,10 +22,14 @@ function Card(props) {
           ? <CCardText> Verified User: YES </CCardText>
           : <CCardText> Verified User: NO </CCardText>
         }
-        <CButton color="success" size='lg' onClick={() => {
-          return (
-            <OverlayModule popupData={{data:currentSeller, visibility:true }}/>
-          )
+        <CButton color="success" size='lg' onClick={(e) => {
+            e.preventDefault();
+            // setOverlayShow(true);
+            return (
+              // <OverlayModule popupData={{data:currentSeller, visibility:true }}/>
+              <OverlayModule2 data={currentSeller.previousOrders} name={currentSeller.name}/>
+            )
+            // setOverlayShow(false);
         }}>Previous Orders</CButton>
       </CCardBody>
     </CCard>
