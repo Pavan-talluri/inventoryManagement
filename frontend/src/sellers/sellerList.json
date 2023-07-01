@@ -1,0 +1,123 @@
+{"info": [
+  {
+    "id" : "0",
+    "info": {
+      "name": "dummy1",
+      "phone": "9988770600",
+      "email": "",
+      "bank_IFSC": "",
+      "bank_account": "",
+      "address": "ameerpet, Hyderbad, telangana",
+      "pincode": "540043",
+      "previousOrders": [
+        {
+          "id": "0",
+          "status": "completed",
+          "priceDue": "0",
+          "paymentStatus": "completed",
+          "itemList": [
+           {"item": "apple",
+           "amount": "10kg"},
+           {"item": "wheat",
+           "amount": "15kg"}
+          ],
+          "totalPriceInRupees": "3000",
+          "orderDate": "3/6/23",
+          "orderDueDate": "15/6/23",
+          "orderCompletionDate": "15/6/23"
+        },
+        {
+          "id": "0",
+          "status": "completed",
+          "priceDue": "0",
+          "paymentStatus": "completed",
+          "itemList": [
+           {"item": "paddy",
+           "amount": "15kg"},
+           {"item": "apple",
+           "amount": "1kg"},
+           {"item": "Bajra",
+           "amount": "2kg"}
+          ],
+          "totalPriceInRupees": "4000",
+          "orderDate": "21/5/23",
+          "orderDueDate": "3/6/23",
+          "orderCompletionDate": "1/6/23"
+        }
+      ],
+      "currentOrder": [{
+        "id": "0",
+        "status": "progress",
+        "priceDue": "0",
+        "paymentStatus": "completed",
+        "itemList": [
+          {"item": "rice1",
+           "amount": "12kg"},
+           {"item": "apple1",
+           "amount": "2kg"},
+           {"item": "wheat",
+           "amount": "11kg"}
+        ],
+        "totalPriceInRupees": "3000",
+        "orderDate": "31/6/23",
+        "orderDueDate": "10/7/23",
+        "orderCompletionDate": ""
+      }]
+    }
+  },
+  {
+    "id": "1",
+    "info": {
+      "name": "dummy2",
+      "phone": "9124971008",
+      "email": "",
+      "bank_IFSC": "",
+      "bank_account": "",
+      "address": "edho peta, secunderabad, telangana",
+      "pincode": "520013",
+      "previousOrders": [],
+      "currentOrder": [{
+        "id": "1",
+        "status": "progress",
+        "priceDue": "3000",
+        "paymentStatus": "incomplete",
+        "itemList": [
+           {"item": "rice",
+           "amount": "10kg"},
+           {"item": "apple",
+           "amount": "10kg"},
+           {"item": "whear",
+           "amount": "1kg"}
+        ],
+        "totalPriceInRupees": "3000",
+        "orderDate": "3/7/23",
+        "orderDueDate": "15/7/23",
+        "orderCompletionDate": ""
+      }]
+    }
+  },
+  {
+    "id": "2",
+    "info": {
+      "name": "dummy3",
+      "phone": "9124971008",
+      "email": "",
+      "bank_IFSC": "",
+      "bank_account": "",
+      "address": "edho ooru, edho state",
+      "pincode": "620013",
+      "previousOrders": [],
+      "currentOrder": [{
+        "id": "2",
+        "status": "Nil",
+        "priceDue": "",
+        "paymentStatus": "",
+        "itemList": [],
+        "totalPriceInRupees": "",
+        "orderDate": "",
+        "orderDueDate": "",
+        "orderCompletionDate": ""
+      }]
+    }
+  }
+]}
